@@ -1,8 +1,10 @@
 RVM es una herramienta de línea de comandos que permite instalar fácilmente, 
 gestionar y trabajar con múltiples entornos de ruby.
 
-La diferencia entre usar < ruby helloworld.rb > y usar < irb helloworld.rb > es 
-que con el irb te señaliza (=>nil) que quiere decir que el método a finalizado, 
-y con el ruby simplemente realiza la acción, a parte de ello con irb te "escribe" 
-en el intérprete lo que has puesto en el fichero (Instruccion a instruccion), con 
-ruby simplemente lo ejecuta. 
+El intérprete interactivo mostrará la secuencia de ejecución de cada línea de código, 
+mostrándonos incluso el contenido de esa línea, mientras que ejecutando 
+"ruby helloWorld.rb" nos mostraría unicamente "hello world" por pantalla.
+
+
+pry nos permite cambiar los valores de las variables o funciones definidas durante
+la interpretación, mientras que con el intérprete interactivo no podemos hacerlo.
