@@ -1,0 +1,8 @@
+RVM es una herramienta de línea de comandos que permite instalar fácilmente, 
+gestionar y trabajar con múltiples entornos de ruby.
+
+La diferencia entre usar < ruby helloworld.rb > y usar < irb helloworld.rb > es 
+que con el irb te señaliza (=>nil) que quiere decir que el método a finalizado, 
+y con el ruby simplemente realiza la acción, a parte de ello con irb te "escribe" 
+en el intérprete lo que has puesto en el fichero (Instruccion a instruccion), con 
+ruby simplemente lo ejecuta. 
